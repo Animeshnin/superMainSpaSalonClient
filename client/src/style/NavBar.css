@@ -1,0 +1,91 @@
+/* Reset and Variables are assumed to be external stylesheets */
+@import "reset.css";
+
+.header {
+    display: flex;
+
+    background-color: white;
+    padding: 15px 15px;
+    justify-content: space-between;
+    box-shadow: 1px 1px 5px #000;
+
+    width: 100%;
+}
+
+.header__adress {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button__registration-button{
+    display: flex;
+    gap: 15px;
+    padding: 0 15px;
+}
+
+.button__authentication{
+    padding: 0 10px;
+    background-color: white;
+    border: 1px solid #40aa54;
+    color: #40aa54;
+    transition: 0.2s ease-out;
+}
+
+.button__authentication:hover{
+    background-color: #40aa54;
+    color: white;
+}
+
+.header__logo-img {
+    width: 80%;
+    height: 100%;
+}
+
+.container__header{
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    gap: 120px;
+    padding: 0;
+}
+
+.registration{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 2px;
+
+}
+
+
+.registration a{
+    font-size: 16px;
+
+}
+
+.nav {
+    text-align: center;
+    margin: auto;
+}
+
+.nav__list {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.lala{
+    width: 200px;
+}
+
+/*//.nav__item-link:hover {*/
+/*//  color: ; !* Assuming $color-main is defined in "vars" *!*/
+/*//}*/
+
+.main__image img {
+    width: 100%;
+    margin-bottom: 40px;
+}
