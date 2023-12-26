@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/superMainSpaSalonClient.iml" filepath="$PROJECT_DIR$/.idea/superMainSpaSalonClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/superMainSpaSalonServer.iml" filepath="$PROJECT_DIR$/.idea/superMainSpaSalonServer.iml" />
     </modules>
   </component>
 </project>
